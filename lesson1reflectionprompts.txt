@@ -1,0 +1,91 @@
+1 ) How did viewing a diff between two versions of a file help you see the bug that
+	was introduced?
+
+-->    Firstly, the command to view the differences between two versions of a file is : 
+	
+	  $ diff file1 file2
+
+	Now, being able to see the differences, the changes between the two versions of 
+	a file helped me to spot the bug by seeing what was working before and what 
+	is not working now. You see, the code was running earlier, the game was fine 
+	and dandy. But, in the new version some code must have had a change that rendered it
+	unable to run the game. By seeing the differences, we could easily compare what was 
+	working before and what is not working now. 
+
+2) How could having easy access to the entire history of a file make you a more
+   efficient programmer in the long term?
+
+-->   It would let me see what type of changes I made, what worked, and what did not in any point of time. 
+	  It will also help me to figure out how long it took for me to implement something in my code,
+	  and at what intervals of time I took to think of a solution to a problem or a bug. 
+	  Overall, having an entire history of my efforts and changes to a file (of code) will let me
+	  learn from my mistakes and failures, both.
+
+
+3) 	What do you think are the pros and cons of manually choosing when to create a
+	commit, like you do in Git, vs having versions automatically saved, like Google
+	docs does?
+
+-->	   Pros of Manual Commits:
+
+		1. As the programmer themselves know when has the most commit-worthy point in code has occured,
+		   it leads to very valuable and accurate commits. (meaningful commits)
+		2. No large amount of un-needed commits.
+		
+	  Cons of Manual Commits:
+	  
+	    1. A bit irksome for the programmer to remember to commit everytime they make some
+		   changes, automatic commits would be really convinient.
+		2. Manual Commits don't factor for power failure or any other kind of failure, unlike auto commit,
+		   which would at least provide a safety net for a programmer to fall back into, if some
+		   unnatural events do occur.
+
+
+
+4)  Why do you think some version control systems, like Git, allow saving multiple
+    files in one commit, while others, like Google Docs, treat each file separately?
+
+-->		
+	The main reason would be the purpose of the VCS. In google docs, the documents are not often
+	going to be inter-related. One document in it may not necessarily be affected or affect another
+	document at all. I may store a story draft and also my pizza pie bill in the docs, and those 
+	two are not related at all. 
+	And, in VCS like Git, their purpose is to facilitate programming. And in programming, when making
+	various programs to do wonderful things, most of the files are by nature, inter-related to each other.
+	My MainPage.java file has a high chance of calling the Login() Function that is found in the 
+	SignUp.java file. And when I have to change the SignUp.java file, I will have to accordingly, change the MainPage.java
+	file too. Thus, it would be more convinient for me to save both of these files in one single commit.
+	
+	Thus, TLDR; Different VCS allow or disallow saving multiple files in one commit, based on their purpose
+	and how closely inter-related most files are going to be in them.
+
+
+
+
+5)  How can you use the commands git log and git diff to view the history of files?
+
+-->
+    First of all, git log shows the entire history of the commits made and the time (date and precise time) when they are occured. 
+	It also provides the commit id/no, which can be used in git diff to find out what has changed between these commits. Thus,
+	by usig git log to view the commits occured and using diff to see what exactly has changed between the commits will 
+	give me a good tool to view the history of the files.
+	
+	
+
+6)  How might using version control make you more confident to make changes that
+    could break something?
+
+-->  
+	That's easy, Because of version control, I am sure that any changes I make, that may break
+	the code can be easily recovered by the usage of git. I can code in peace that after making a commit
+	I have the absolute freedom to break anything, as git has got my back. I can recover the successful version
+	that was successfully working (i.e I can checkout to a working commit) incase a failure occurs. 
+	
+
+7)  Now that you have your workspace set up, what do you want to try using Git for?
+
+-->
+	After getting my Git up and Running, I would like to use git for my programming experiments. Also,
+	the main motive for me in learning to use Git was to maintain a code repo in my pc and sync it with 
+	github. Finally, I want to try using git with Unity. It would give me a full-blown hands-on experience in 
+	Version Control while making a major software.
