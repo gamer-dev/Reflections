@@ -14,3 +14,13 @@
 	only those files in our working directory, that need to be commited. The value it offers is that it acts as a necessary buffer 
 	to keep files that need to be commited, tracked by git. We can also remove the files that do not need to be commited, so it
 	also offers some safety measures, if we accidentally choose the wrong file to be commited.
+	
+3)  How can you use the staging area to make sure you have one commit per logical change?
+
+-->
+	By adding one file to the staging area per one logical change we have made to that file; and not adding other files
+	to the stage, we can make sure that we have one commit per logical change. I.e, make one logical change in one file >
+	add to stage > commit. This is the process to acheive that!
+	
+	
+
