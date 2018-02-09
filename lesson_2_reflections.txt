@@ -22,5 +22,16 @@
 	to the stage, we can make sure that we have one commit per logical change. I.e, make one logical change in one file >
 	add to stage > commit. This is the process to acheive that!
 	
-	
+4)	What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+-->
+	Whenever we would like to work on an additional or an experimental feature in our software, we can use 
+	the branch to do so, to not mess up the main files and also to be simultaneously work on both of the features of the 
+	software. Thus, by creating a seperate entity to do different work(s) on it, branches make the project more
+	organised and thus help to maintain and organize our history. 
+	Also, we have the abiity to merge the branches into our main/master, so that we can easily add any changes of the branch
+	successfully. 
+	Thus, by creating a seperate thread to do our work in, and later on combine them if needed, Branches in git
+	help to organize our history in a clean and a simple manner, which wouldn't have been acheiveable if we had kept
+	using the checkout option in git.
 
