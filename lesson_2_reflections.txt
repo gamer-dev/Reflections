@@ -45,6 +45,19 @@
 	the main branch and what improvements are currently being worked on, and which features were completed and merged to the
 	main branch.
 	
+6)  What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+-->
+	The result of merging two branches is that the commit history of one branch gets combined (interleaved) with the another
+	according to the timestamp, and makes a new commit on the current branch (the checked-out branch) thus creating the appearance
+	of these two branches joining into one. So, what it does is that it makes available the commits of one branch to another, and we thus
+	can access the whole commits of both branches. It combines these two branches and makes them as 1, effectively. It incorporates all
+	the changes that were introduced in both the branches and gives us a single up-to-date branch.
+	We represent it in the diagram the way that we do is that because creating a branch separates the work done, and merging makes all
+	the work done separetly into one. It combines all the changes, the fixes, the features from one branch to another. Thus, it is shown that
+	way in the branch.
+	
+7)  
 
 	
 	
