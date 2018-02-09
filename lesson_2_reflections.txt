@@ -35,3 +35,19 @@
 	help to organize our history in a clean and a simple manner, which wouldn't have been acheiveable if we had kept
 	using the checkout option in git.
 
+
+5)  How do the diagrams help you visualize the branch structure?
+
+-->
+	Diagrams provide a visual representation of what commits we are making in our repository. Repository is a collection
+	of snapshots of commits at various time points. By making diagrams, we can see the various commits we made, how many
+	branches are there and where we are on the tree. It also helps to see us how the features are on different branches than
+	the main branch and what improvements are currently being worked on, and which features were completed and merged to the
+	main branch.
+	
+
+	
+	
+	
+	
+	
