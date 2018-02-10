@@ -13,3 +13,17 @@
 -->
 	Because this approach gives me more control over what I would like to work on in my local machine.
 	
+3)  Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+-->
+	i)   Forks are simply the cloning that exists in between the repositories in Github and Github ONLY. (Github <-fork-> Github)
+	ii)  Clones are the complete coping of the files and commit history between two different repositories on the same machine or
+	     different machines. (Github/Local <-clone-> Local)
+	iii) Branches are the threads of codes that occur inside a repository. They occur within the repository to give seperate areas
+	     to work on.
+		 
+	I would use:
+		Forks  : When I want to build upon another's work available on Github, in my Github.
+		Clone  : When I want to work upon another's code (remote repository) on my own local machine.
+		Branch : When I want to experiment or add a new feature to my project/code seperately, without the risk of breaking the whole thing.
+
