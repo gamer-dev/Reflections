@@ -43,7 +43,17 @@
 	But, maintaing different features, tracking of different versions and allowing authorized persons to make changes to the 
 	code would definitely be way harder.
 
+6)  When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
+-->
+	I would want to make changes in a separate branch rather than directly in master, when I would be working on a new feature that may
+	have the potential to break the software. It would be more convinient and safer to use a new branch to do new features and let normal
+	work go on the main branch. 
+	Using branches make work safer and fail-proof and give us developers more powers and flexibilty in terms of code, but it would be complex
+	to keep track of all the branches and their conflicts at the same time, too.
+	Making changes directly in the master would streamline the whole development process, making it easier to follow along, but would make it a
+	nightmare to keep track of different bugs and features and introduce delay as a part of the team working on something could interfere with
+	other part working on the same thing in the project.
 
 
 
