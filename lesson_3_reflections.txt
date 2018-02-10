@@ -34,5 +34,16 @@
 	syncing with the remote repo later online, having the copy of the last known state will make it easier to compare any 
 	changes made between the remote and the local repo and help to solve confilcts too.
 
+5)  How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+-->
+	I have been just sharing files through Storage Devices and paste.ly, and if it not were for GitHub or Git, I would be
+	collaborating using Google Docs, pastebin.com, email, storage devices, FTP and a host of other tools. 
+	It would not be easier, I really don't know how it would be easier.
+	But, maintaing different features, tracking of different versions and allowing authorized persons to make changes to the 
+	code would definitely be way harder.
+
+
+
 
 
