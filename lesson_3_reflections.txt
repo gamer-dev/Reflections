@@ -1,3 +1,7 @@
-When would you want to create a remote repository rather than keeping all your work local?
+1)  When would you want to create a remote repository rather than keeping all your work local?
 
--->
+--> 
+    Because creating a remote repository will: 
+    
+    i)  Serve as a Backup when and if my local files are deleted or they become corrupt.
+    ii) Share my (Open Source) code and docs with the rest of the world.
