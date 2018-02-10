@@ -25,5 +25,14 @@
 	I would use:
 		Forks  : When I want to build upon another's work available on Github, in my Github.
 		Clone  : When I want to work upon another's code (remote repository) on my own local machine.
-		Branch : When I want to experiment or add a new feature to my project/code seperately, without the risk of breaking the whole thing.
+		Branch : When I want to experiment or add a new feature to my project/code seperately, without the risk of breaking the whole thing.\
+		
+4)	What is the benefit of having a copy of the last known state of the remote stored locally?
+
+-->
+	Knowing what's the state of the remote in my local itself lets me make changes to the local file accordingly. Also, when 
+	syncing with the remote repo later online, having the copy of the last known state will make it easier to compare any 
+	changes made between the remote and the local repo and help to solve confilcts too.
+
+
 
